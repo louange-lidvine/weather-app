@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React  from "react";
 
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
@@ -10,30 +10,7 @@ export const Cities: React.FC<{
         lat: number;
     };
 }> = ({ cityName, coordinates }) => {
-    // const [coordinate, setCoordinates] = useState([0, 0]);
-    // const [temp, setTemp] = useState(0);
-    // useEffect(() => {
-    //     axios
-    //         .get(
-    //             `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=10&appid=${
-    //                 import.meta.env.VITE_WEATHER_API_KEY
-    //             }`
-    //         )
-    //         .then((res) => {
-    //             setCoordinates([res.data[0].lat, res.data[0].lon]);
-    //         });
-    //     axios
-    //         .get(
-    //             `https://api.openweathermap.org/data/2.5/weather?lat=${
-    //                 coordinate[0]
-    //             }&lon=${coordinate[1]}&appid=${
-    //                 import.meta.env.VITE_WEATHER_API_KEY
-    //             }`
-    //         )
-    //         .then((res) => {
-    //             setTemp(Math.floor(res.data.main.temp - 273));
-    //         });
-    // }, [cityName, coordinate]);
+  
 
     const {
         data: weatherData,

@@ -1,10 +1,10 @@
-import { LineChart, CartesianGrid, XAxis, YAxis, Line } from "recharts";
+import { LineChart, XAxis, YAxis, Line } from "recharts";
 import { useStore } from "../utils/store";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
 import moment from "moment";
-const data = [
+ [
     {
         time: "11 pm",
         temp: 20,
@@ -22,7 +22,7 @@ const data = [
 const ChartComp: React.FC = () => {
     const {  coordinates } = useStore();
     const [chartData, setChartData] = useState([]);
-    const { isError, isLoading } = useQuery({
+   useQuery({
         queryKey: ["chart-data", coordinates],
         queryFn: async () => {
             const res = await axios.get(

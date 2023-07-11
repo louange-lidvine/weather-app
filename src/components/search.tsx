@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "react-datalist-input/dist/styles.css";
 import "../datalist.css"
 import { useDebounce } from "usehooks-ts";
@@ -61,21 +61,7 @@ export const Search = () => {
                 }))}
                 
             />
-            {/* <input
-                className="focus:outline-none"
-                type="text"
-                value={inputValue}
-                onChange={handleInputChange}
-                placeholder="Enter city name"
-                style={{ backgroundColor: "transparent" }}
-                list="datalist"
-            />
-            <datalist id="datalist">
-                <option value="smartphone" />
-                <option value="smartphone" />
-                <option value="smartphone" />
-                <option value="smartphone" />
-            </datalist> */}
+            
         </div>
     );
 };
