@@ -39,7 +39,7 @@ export const Cities: React.FC<{
                 </p>
                 <p>{cityName}</p>
                 <div className="border-b-[5px] border-orange-500 mt-3 "></div>
-              <img src="/public/images/Rectangle 4.png" alt=" hello" className="mt-2"/>
+              <img src="/images/Rectangle 4.png" alt=" hello" className="mt-2"/>
             </div>
         );
     } else {

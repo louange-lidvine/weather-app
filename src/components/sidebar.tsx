@@ -81,7 +81,7 @@ const Sidebar = () => {
                 <div className="text-white flex gap-[40PX] mt-10  ml-4">
                     <div>
                         <img
-                            src="/public/images/Group 1.png"
+                            src="images/Group 1.png"
                             alt="figma"
                             className="w-[50px]"
                         />
