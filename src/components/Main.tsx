@@ -41,7 +41,7 @@ export const Main = () => {
                 <p className="mb-[-14px] ">Storm</p>
                 <p>With Heavy Rain</p>
             </div>
-            <div className="mt-[36px] flex font-Helvetica Neue ml-[50px]">
+            <div className=" clouds mt-[36px] flex font-Helvetica Neue ml-[50px]">
                 <FontAwesomeIcon
                     icon={faCloud}
                     style={{
@@ -51,7 +51,7 @@ export const Main = () => {
                     }}
                 />
 
-                <div className="ml-[5px] m-auto md:m-[0px]">
+                <div className=" ml-[5px] m-auto md:m-[0px]">
                     USA,Friday,jan3,2023,8:45AM
                 </div>
             </div>
@@ -81,7 +81,7 @@ export const Main = () => {
             >
                 <p className="text-[15px] ">SEE DETAILS </p>
             </div>
-            <div className="flex gap-[25px]   md:mb-[30px] md:gap-[90px] w-full  text-[12px] mb-[-10px]">
+            <div className="data  flex gap-[25px]   md:mb-[30px] md:gap-[90px] w-full  text-[12px] mb-[-10px]">
                 <div>
                     <p className="flex  ">
                         <span>high </span>

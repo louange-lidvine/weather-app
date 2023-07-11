@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer; */
+@media screen and (max-width:620px) {
+    .app{
+      @apply h-auto
+}
+.data{
+       @apply grid grid-cols-3
+}
+.picture{
+       @apply h-fit
+}
+.clouds{
+       @apply ml-[20px]
+    
+}
+}
+
+body{
+    @apply bg-black
+}
